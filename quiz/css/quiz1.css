@@ -434,10 +434,10 @@
   
       .quiz{
         
-        width: 100%;
+        width: 50%;
         height: 10%;
-        
-        top: 25rem;  
+        left: 7.5rem;
+        top: 30rem;  
       }
   
       .sistema {
