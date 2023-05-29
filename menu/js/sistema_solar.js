@@ -27,7 +27,7 @@ function planetas(){
 }
 
 function quiz(){
-  window.location.href = "../../quiz/html/quiz.html";
+  window.location.href = "../../quiz/html/quiz1.html";
 }
 
 function menu(){
