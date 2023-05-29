@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../Jogo/IMG/FUNDO.png");
+    background-size: cover;
+    font-family: sans-serif;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+img{
+    width: 5.5rem;
+    height: 5.2rem;
+    border-radius: 50%;
+}
+.img{
+    position: fixed;
+}
+#title{
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: #fff;
+    background: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.questions{
+   
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: transparent;
+    cursor: default;
+    border-radius: 1rem;
+}
+#question{
+   
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.option{
+    
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    border-bottom: solid 0.1rem rgb(14, 14, 14);
+    width: rem;
+    height: 3rem;
+    text-align: center;
+    background: rgba(48, 22, 81, 0.65);;
+    border-radius: 1rem;
+}
+.option:hover{
+    color: rgb(0, 0, 0);
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(255, 255, 255);
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: rgb(6,17,168);
+}
+.buttons{
+    text-align: center;
+}
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: rgba(93,53,156,0.98);
+    background: rgba(0, 152, 152, 0.82);
+}
+button:active{
+    background: rgb(255, 255, 255);
+}
+#scoreboard,#answerBank{
+    width: 20rem;
+    background: rgba(230,230,250,0.77);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+#score-title{
+    margin: 1rem 0;
+}
+#score-btn,#check-answer{
+    margin-top: 1rem;
+}
+#score{
+    font-size: 2.5rem;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+#answers{
+    margin-top: 1rem;
+}
+
+/* Estilos específicos para notebooks */
+
+@media screen and (min-width: 769px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    img{
+        width: 6.5rem;
+        height: 6.2rem;
+    }
+
+    .questions{
+        width: 60vw;
+        padding: 2rem;
+        margin: 4rem auto;
+    }
+
+    #title{
+        font-size: 3rem;
+    }
+
+    .option{
+        font-size: 2rem;
+        height: 3rem;
+    }
+
+    button{
+        font-size: 1.5rem;
+        padding: 0.2rem 1.5rem;
+    }
+
+    #scoreboard, #answerBank{
+        width: 25rem;
+        top: 5rem;
+    }
+
+    #score-title{
+        margin: 1rem 0;
+    }
+
+    #score{
+        font-size: 2.5rem;
+    }
+
+    #answerBank li{
+        font-size: larger;
+    }
+}

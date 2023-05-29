@@ -1,0 +1,455 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .slideshow-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .slides {
+    height: 100%;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+  
+    display: none;
+  }
+  
+  .slide[data-active] {
+    display: block;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .previous-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  
+    width: 56px;
+    height: 56px;
+    font-size: 32px;
+    font-weight: bold;
+  
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .previous-button {
+    left: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  
+  .next-button {
+    right: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  .previous-button:hover,
+  .next-button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.2s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.8;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .btn1 {
+    width: 29rem;
+    height: 13rem;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    top: 250px;
+    text-align: center;
+    left: 28rem;
+    
+  
+    background: transparent;
+  border: transparent;
+  box-shadow: transparent;
+  border-radius: 2rem;
+    cursor: auto;
+  }
+  
+  .escrita{
+      background-image: url('../IMG/boneco\ quiz.png') ;
+      background-size: cover;
+      position: absolute;
+      width: 15rem;
+      height: 15rem;
+      left: 10rem;
+      top: -15rem;
+
+  }
+  
+  .btn2 {
+      width: 29rem;
+      height: 13rem;
+    
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 25px;
+      line-height: 25px;
+      color: #fff;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      position: absolute;
+      top: 250px;
+      text-align: center;
+      left: 28rem;
+      
+    
+      background: transparent;
+  border: transparent;
+  box-shadow: transparent;
+  border-radius: 2rem;
+    cursor: auto;
+    }
+    
+    .escrita{
+        background-image: url('../IMG/boneco\ quiz.png') ;
+        background-size: cover;
+        position: absolute;
+        width: 15rem;
+        height: 15rem;
+        left: 7rem;
+        top: -12rem;
+    }
+  
+    .btn3 {
+        width: 29rem;
+        height: 13rem;
+      
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 25px;
+        color: rgb(255, 255, 255);
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        position: absolute;
+        top: 250px;
+        text-align: center;
+        left: 28rem;
+        
+      
+        background: transparent;
+    border: transparent;
+    box-shadow: transparent;
+    border-radius: 2rem;
+      cursor: auto;
+    }
+    
+    .escrita{
+        background-image: url('../IMG/boneco\ quiz\ 2.png') ;
+        background-size: cover;
+        position: absolute;
+        width: 15rem;
+        height: 10rem;
+        left: 8rem;
+        top: -8rem;
+    }
+  
+    .btn4 {
+        width: 29rem;
+        height: 13rem;
+      
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 25px;
+        color: rgb(255, 255, 255);
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        position: absolute;
+        top: 250px;
+        text-align: center;
+        left: 28rem;
+        
+      
+        background: transparent;
+    border: transparent;
+    box-shadow: transparent;
+    border-radius: 2rem;
+      cursor: auto;
+    }
+    
+    .escrita{
+        background-image: url('../IMG/boneco\ quiz\ 2.png') ;
+        background-size: cover;
+       
+        position: absolute;
+        width: 15rem;
+        height: 10rem;
+        left: 8rem;
+        top: -9rem;
+    }
+  
+    .btn5 {
+        width: 29rem;
+        height: 13rem;
+      
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 25px;
+        color: rgb(255, 255, 255);
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        position: absolute;
+        top: 250px;
+        text-align: center;
+        left: 28rem;
+        
+      
+        background: transparent;
+    border: transparent;
+    box-shadow: transparent;
+    border-radius: 2rem;
+      cursor: auto;
+    }
+    
+    .escrita{
+        background-image: url('../IMG/boneco\ quiz\ 3.png') ;
+        background-size: cover;
+        position: absolute;
+        width: 15rem;
+        height: 15rem;
+        left: 8rem;
+        top: -12rem;
+    }
+  
+    .btn6 {
+        width: 29rem;
+        height: 13rem;
+      
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 25px;
+        color: rgb(255, 255, 255);
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        position: absolute;
+        top: 250px;
+        text-align: center;
+        left: 28rem;
+        
+      
+        background: transparent;
+    border: transparent;
+    box-shadow: transparent;
+    border-radius: 2rem;
+      cursor: auto;
+    }
+    
+    .escrita{
+        background-image: url('../IMG/boneco\ quiz\ 2.png') ;
+        background-size: cover;
+        position: absolute;
+        width: 15rem;
+        height: 10rem;
+        left: 8rem;
+        top: -7rem;
+    }
+  
+    .btn7 {
+        width: 29rem;
+        height: 13rem;
+      
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 25px;
+        color: rgb(255, 255, 255);
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        position: absolute;
+        top: 250px;
+        text-align: center;
+        left: 25rem;
+        
+      
+        background: transparent;
+    border: transparent;
+    box-shadow: transparent;
+    border-radius: 2rem;
+      cursor: auto;
+    }
+    
+    .escrita{
+        background-image: url('../IMG/boneco\ quiz\ 4.png') ;
+        background-size: cover;
+        position: absolute;
+        width: 15rem;
+        height: 20rem;
+        left: 8rem;
+        top: -13rem;
+    }
+  
+    .btn8 {
+        width: 29rem;
+        height: 13rem;
+      
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 25px;
+        color: rgb(255, 255, 255);
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        position: absolute;
+        top: 250px;
+        text-align: center;
+        left: 25rem;
+        
+      
+        background: transparent;
+    border: transparent;
+    box-shadow: transparent;
+    border-radius: 2rem;
+      cursor: auto;
+    }
+    
+    .escrita{
+        background-image: url('../IMG/boneco\ quiz\ 5.png') ;
+        background-size: cover;
+        position: absolute;
+        width: 15rem;
+        height: 15rem;
+        left: 5rem;
+        top: -11rem;
+    }
+  
+    .quiz {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 8px 0px 8px 15px;
+    
+        
+        background: rgba(48, 22, 81, 0.65);
+        border: 2px solid rgba(48, 22, 81, 0.65);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+    
+        position: absolute;
+        width: 15rem;
+        height: 6rem;
+        left: 72rem;
+        top: 4rem;
+        text-align: center;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    
+    
+    
+    color: #FFFFFF;
+    
+    cursor: pointer;
+    }
+    
+    
+   
+    
+    @media (max-width: 768px) {
+      .btn1,
+      .btn2,
+      .btn3,
+      .btn4,
+      .btn5,
+      .btn6,
+      .btn7,
+      .btn8,
+      .btn9,
+      .quiz,
+      .sistema {
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 17rem;  
+      }
+  
+      .quiz{
+        width: 40%;
+        height: 15%;
+        left: 20rem;
+        top: 5rem;  
+      }
+  
+      .sistema {
+          width: 100%;
+          height: auto;
+          left: 0;
+          top: 8rem;  
+        }
+    
+        .escrita{
+          top: -18rem;
+          
+        }
+    }
+    
+    
