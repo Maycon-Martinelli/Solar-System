@@ -1,0 +1,49 @@
+body {
+    background-image: url("../IMG/telainicio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+    
+  }
+  #logo{
+    text-align: center;
+  }
+  h2{
+    
+    display: inline-block;
+    font-family: "impact", sans-serif;
+    
+    font-size: 6rem;
+    
+    color:  rgb(12, 108, 218);
+    
+    letter-spacing: .9rem;
+  }
+  
+  @keyframes move{
+    form{ background-position: 0 80%;}
+    to {background-position: 100% 50%;}
+  }
+
+#botao{
+    text-align: center;
+}
+button{
+  background-color: transparent;
+  border-color: #272262;
+  color: #ffffff;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 20pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+button:hover{
+  background-color: #272262;
+  color: #ffffff;
+}
+  

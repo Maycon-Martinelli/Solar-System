@@ -1,0 +1,87 @@
+body{
+  background-image: url("../IMG/Rectangle\ 22.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#boneco{
+  text-align: center;
+  margin-top: 25rem;
+  margin-left: 80rem;
+}
+
+.escrita{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 28rem;
+ 
+  font-size: 25px;
+  margin-top: -8rem;
+}
+
+#botao{
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -35rem;
+}
+
+button {
+  background-color: rgb(12, 108, 218);
+  color: black;
+  border-radius: 20em;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+}
+
+button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+
+@media only screen and (max-width: 768px) {
+  
+
+  #boneco {
+   margin-left: 0;
+   margin-top: 10rem;
+  
+   
+  }
+
+  .escrita {
+    margin-top: -2rem;
+    
+      color: rgb(255, 255, 255);
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 25px;
+      
+    }
+  
+
+  #botao {
+    margin-top: 2rem;
+    display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rem;
+      
+    }
+    
+  }
+
