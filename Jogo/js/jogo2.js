@@ -8,12 +8,12 @@ var questionBank= [
     {
         question : 'Qual é o planeta mais próximo do Sol?',
         option : ['Marte','Terra',' Mercúrio','Saturno'],
-        answer : 'Marte'
+        answer : 'Mercúrio'
     },
     {
         question : 'Qual é o planeta mais quente do sistema solar?',
         option : ['Júpiter','Marte','Vênus','Urano'],
-        answer : 'Júpiter'
+        answer : 'Vênus'
     },
     {
         question : 'Qual é o único planeta conhecido que tem vida?',
