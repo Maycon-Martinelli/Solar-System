@@ -3,21 +3,20 @@
     padding: 0;
 }
 
-body {
+body{
+    background-image: url(../IMG/FUNDO.png);
+    background-size: cover;
+    height: 100vh;
+  
     
-    
-    overflow-x: hidden;
-    overflow-y: hidden;
- }
- .img{
-    width: 300%;
-    height: 100%;
- }
+
+  }
+ 
 
 .boneco {
     position: absolute;
     margin-top: 15rem;
-    left: 52rem;
+    left: 40%;
 }
 
 button {

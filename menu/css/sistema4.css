@@ -51,6 +51,21 @@ button:active {
   box-shadow: 0 0 0 0 black;
 }
 
+@media (max-width:1024px){
+  #boneco{
+    position: relative;
+        right: 100%;
+  }
+  .escrita{
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    left: -40%;
+   
+    font-size: 25px;
+    margin-top: -8rem;
+  }
+}
 @media only screen and (max-width: 768px) {
   
 

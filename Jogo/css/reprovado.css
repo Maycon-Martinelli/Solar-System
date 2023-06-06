@@ -4,14 +4,14 @@
 }
 
 body {
- 
+    
+        background-image: url(../IMG/FUNDO.png);
+        background-size: cover;
+        height: 100vh;
     overflow-x: hidden;
    overflow-y: hidden;
 }
-img{
-    width: 100%;
-    height: 100%;
-}
+
 .boneco {
     position: absolute;
     margin-top: 8rem;
@@ -133,6 +133,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 70px;
 line-height: 50px;
+color: #FFFFFF;
 }
 
 /* Responsivo para dispositivos móveis */

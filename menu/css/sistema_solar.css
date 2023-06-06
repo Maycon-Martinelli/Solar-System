@@ -819,15 +819,15 @@ img {
   padding: 7px;
   font-weight: bold;
   font-size:30pt;
-  margin-top: 20px;
-  right: 0rem;
+  
+  right: 65%;
   border-radius: 5px;
   cursor: pointer;
   outline: none;
   transition: all .4s ease-out;
-  top: 3.5rem;
-  width: 14rem;
-  height: 5rem;
+  top: 1rem;
+  width: 15%;
+  height: 10%;
   border-radius: 100px;
   
 }
@@ -845,15 +845,15 @@ img {
   padding: 7px;
   font-weight: bold;
   font-size:25pt;
-  margin-top: 50px;
-  right: 0rem;
+ 
+  right: 42.5%;
   border-radius: 5px;
   cursor: pointer;
   outline: none;
   transition: all .4s ease-out;
-  top: 7rem;
-  width: 14rem;
-  height: 5rem;
+  top: 1rem;
+  width: 15%;
+  height: 10%;
   border-radius: 100px;
   text-align: center;
   
@@ -879,11 +879,11 @@ background-color: #272262;
   cursor: pointer;
   outline: none;
   transition: all .4s ease-out;
-  top: 15.5rem;
-  width: 13.9rem;
-  height: 5rem;
-  border-radius: 100px;
-  right: 0rem;
+  top: 1rem;
+  width: 15%;
+  height: 10%;
+    border-radius: 100px;
+  right: 20%;
 
 }
 

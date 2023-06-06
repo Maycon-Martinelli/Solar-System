@@ -21,6 +21,9 @@ img{
     height: 5.2rem;
     border-radius: 50%;
 }
+#quiz-container{
+    color: #fff;
+}
 .img{
     position: fixed;
 }
